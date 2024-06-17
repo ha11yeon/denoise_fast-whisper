@@ -1,0 +1,9 @@
+[ 설치 패키지]
+pip install -U openai-whisper
+pip install pydub
+pip install pyaudio
+
+https://visualstudio.microsoft.com/ko/visual-cpp-build-tools/ 들어가서 "Microsoft Build Tools" 윈도우PC에 설치 ("C++를 사용한 데스크톱 개발"만 설치하면 됨). 이후 아나콘다에서 아래 설치.
+pip install webrtcvad
+
+
