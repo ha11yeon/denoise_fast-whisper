@@ -1,2 +1,5 @@
-test_audio/
-tmp/
+# 오디오 파일 관련
+test_audio/KimKyungHoon.wav
+test_audio/KoJaeWoong.wav
+
+# 
