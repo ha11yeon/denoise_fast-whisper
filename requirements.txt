@@ -1,0 +1,4 @@
+# pip install -r requirements.txt
+
+PyAudio==0.2.14
+faster_whisper==1.0.2
