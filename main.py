@@ -22,7 +22,6 @@ class Audio_save:
         self.audio = pyaudio.PyAudio()
         self.format = pyaudio.paInt16
         self.channels = 1
-        self.stream = self.audio.open(format=self.format, channels=self.channels, rate=self.sr, input=True, frames_per_buffer=self.chunk)
 
     def run(self):
         self.run_thread = threading.Thread(target=self._run)
@@ -32,6 +31,7 @@ class Audio_save:
         '''
         run() thread
         '''
+        self.stream = self.audio.open(format=self.format, channels=self.channels, rate=self.sr, input=True, frames_per_buffer=self.chunk)
         self.buffer = []
         self.streaming_status = True
         while self.streaming_status:
