@@ -14,3 +14,8 @@ OpenAI의 Whisper 모델과 VAD(Voice Activity Detector)를 사용해 구현한 
 GUI로 STT 테스트
 - faster_whisper로 cpu통해서 tiny, base 모델 테스트 가능하게 gui 구성
 - exe파일 생성
+
+## 240619_v3
+노이즈 제거 기능 테스트 중
+- main.py기능은 안만짐
+- '잡음 제거 테스트.ipynb' 하나 만들어서 잡음 제거 기능 테스트 중임

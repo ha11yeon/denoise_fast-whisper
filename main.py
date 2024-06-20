@@ -76,13 +76,14 @@ class Cumtom_whisper:
         self.model = WhisperModel(model_name, device="cpu", compute_type="int8")
         print(f'STT 모델 변경: {model_name}')
 
-    def run(self, wav_path):
+    def run(self, wav_path, language=None):
         '''
         저장된 tmp.wav를 불러와서 STT 추론 수행
         '''
         start = time.time()
         # 추론
-        segments, info = self.model.transcribe(wav_path, beam_size=5, word_timestamps=True, language='ko')
+
+        segments, info = self.model.transcribe(wav_path, beam_size=5, word_timestamps=True, language=language)
         # 결과 후처리
         dic_list = []
         for segment in segments:
