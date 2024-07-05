@@ -19,3 +19,5 @@ GUI로 STT 테스트
 노이즈 제거 기능 테스트 중
 - main.py기능은 안만짐
 - '잡음 제거 테스트.ipynb' 하나 만들어서 잡음 제거 기능 테스트 중임
+- 통합 GUI 모듈 제작함
+![alt text](README_img/img1.png)
