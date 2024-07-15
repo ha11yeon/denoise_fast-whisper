@@ -16,7 +16,7 @@ OpenAI의 Whisper 모델과 VAD(Voice Activity Detector)를 사용해 구현한 
 
 ## 기능 설명 및 데모 영상
 1. **STT GUI 구현 테스트 영상**
-
+  
 1-1. 음성 활동 감지(VAD)를 통한 자동 녹음 중지 기능 설명  
 [![alt text](https://img.youtube.com/vi/WDDFrGd1XBg/0.jpg)](https://www.youtube.com/watch?v=WDDFrGd1XBg)  
   
@@ -33,9 +33,16 @@ OpenAI의 Whisper 모델과 VAD(Voice Activity Detector)를 사용해 구현한 
 
 
 2. **싱글보드 STT 구동 테스트 영상**
-    1. [![개발PC_Stt 온디바이스 데모](https://img.youtube.com/vi/Kit1lvTWxxg/0.jpg)](https://www.youtube.com/watch?v=Kit1lvTWxxg)
-    2. [![라즈베리파이_Stt 온디바이스 데모](https://img.youtube.com/vi/UtyPmrirj_0/0.jpg)](https://www.youtube.com/watch?v=UtyPmrirj_0)
-    3. [![젯슨오린나노_Stt 온디바이스 데모](https://img.youtube.com/vi/MfX-K7kKF_Y/0.jpg)](https://www.youtube.com/watch?v=MfX-K7kKF_Y)
+  
+2-1.개발PC_Stt 온디바이스 데모  
+[![alt text](https://img.youtube.com/vi/Kit1lvTWxxg/0.jpg)](https://www.youtube.com/watch?v=Kit1lvTWxxg)  
+  
+2-2. 라즈베리파이_Stt 온디바이스 데모  
+[![alt text](https://img.youtube.com/vi/UtyPmrirj_0/0.jpg)](https://www.youtube.com/watch?v=UtyPmrirj_0)  
+  
+2-3. 젯슨오린나노_Stt 온디바이스 데모  
+[![alt text](https://img.youtube.com/vi/MfX-K7kKF_Y/0.jpg)](https://www.youtube.com/watch?v=MfX-K7kKF_Y)  
+
 
 ## 설치 및 실행 방법
 이 프로젝트를 로컬에서 실행하려면 아래 단계를 따르세요.
