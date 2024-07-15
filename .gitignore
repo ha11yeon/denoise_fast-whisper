@@ -1,7 +1,6 @@
 # 오디오 파일 관련
 test_audio/KimKyungHoon.wav
 test_audio/KoJaeWoong.wav
-tmp.wav
 
 # 기타 폴더
 dist/
@@ -12,4 +11,12 @@ main.spec/
 setup.py
 
 # exe파일
-main.exe
+*.exe
+
+# weight 파일 관련
+*.pt
+*.gguf
+*.safetensors
+
+# 고화질 영상
+*.mp4
