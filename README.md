@@ -17,13 +17,13 @@ OpenAI의 Whisper 모델과 VAD(Voice Activity Detector)를 사용해 구현한 
 ## 기능 설명 및 데모 영상
 1. **STT GUI 구현 테스트 영상**
     1. 음성 활동 감지(VAD)를 통한 자동 녹음 중지 기능 설명
-    1. [![음성 활동 감지(VAD)를 통한 자동 녹음 중지 기능 설명](https://img.youtube.com/vi/WDDFrGd1XBg/0.jpg)](https://www.youtube.com/watch?v=WDDFrGd1XBg)
+       [![음성 활동 감지(VAD)를 통한 자동 녹음 중지 기능 설명](https://img.youtube.com/vi/WDDFrGd1XBg/0.jpg)](https://www.youtube.com/watch?v=WDDFrGd1XBg)
     2. 음성 로드 기능 설명
-    2. [![음성 로드 기능 설명](https://img.youtube.com/vi/0IZx-0-FGZI/0.jpg)](https://www.youtube.com/watch?v=0IZx-0-FGZI)
+       [![음성 로드 기능 설명](https://img.youtube.com/vi/0IZx-0-FGZI/0.jpg)](https://www.youtube.com/watch?v=0IZx-0-FGZI)
     3. 모델 변경 기능 설명
-    3. [![모델 변경 기능 설명](https://img.youtube.com/vi/sQlIkdLi9Bs/0.jpg)](https://www.youtube.com/watch?v=sQlIkdLi9Bs)
+       [![모델 변경 기능 설명](https://img.youtube.com/vi/sQlIkdLi9Bs/0.jpg)](https://www.youtube.com/watch?v=sQlIkdLi9Bs)
     4. 디노이즈 관련 기능 설명
-    4. [![디노이즈 관련 기능 설명](https://img.youtube.com/vi/N6eltE5N9MM/0.jpg)](https://www.youtube.com/watch?v=N6eltE5N9MM)
+       [![디노이즈 관련 기능 설명](https://img.youtube.com/vi/N6eltE5N9MM/0.jpg)](https://www.youtube.com/watch?v=N6eltE5N9MM)
 
 2. **싱글보드 STT 구동 테스트 영상**
     1. [![개발PC_Stt 온디바이스 데모](https://img.youtube.com/vi/Kit1lvTWxxg/0.jpg)](https://www.youtube.com/watch?v=Kit1lvTWxxg)
