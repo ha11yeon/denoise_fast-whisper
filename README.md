@@ -73,6 +73,9 @@ pydub, pyaudio, faster-whisper, SpeechRecognition, noisereduce, webrtcvad
 ## 240618_v1
 240618 실시간 STT 테스트
 
+## 블로그  
+https://blog.naver.com/112fkdldjs/223513947371 
+
 [문제점]
 - tmp.wav를 저장해서 불러오는 방식이라 그 과정에서 계속 알 수 없는 에러가 발생(읽는 타이밍이 꼬이는듯)
 - 마지막 단어를 배출하지 못하는 특성 있음. 그리고 10초가 지나면 잊혀짐
