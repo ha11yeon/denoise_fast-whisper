@@ -43,7 +43,7 @@ OpenAI의 Whisper 모델과 VAD(Voice Activity Detector)를 사용해 구현한 
 2-3. 젯슨오린나노_Stt 온디바이스 데모  
 [![alt text](https://img.youtube.com/vi/MfX-K7kKF_Y/0.jpg)](https://www.youtube.com/watch?v=MfX-K7kKF_Y)  
 
-
+  
 ## 설치 및 실행 방법
 이 프로젝트를 로컬에서 실행하려면 아래 단계를 따르세요.
 
@@ -64,6 +64,10 @@ pip install -r requirements.txt
 ```bash
 python main.py
 ```
+
+## 라이센스  
+아래 라이브러리들의 라이센스를 포함합니다.  
+pydub, pyaudio, faster-whisper, SpeechRecognition, noisereduce, webrtcvad  
 
 # 버전 히스토리
 ## 240618_v1
