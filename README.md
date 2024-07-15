@@ -17,16 +17,16 @@ OpenAI의 Whisper 모델과 VAD(Voice Activity Detector)를 사용해 구현한 
 ## 기능 설명 및 데모 영상
 1. **STT GUI 구현 테스트 영상**
   
-1-1. 음성 활동 감지(VAD)를 통한 자동 녹음 중지 기능 설명  
+1-1. 음성 활동 감지(VAD)를 통한 자동 녹음 중지 기능 설명(이미지 클릭 시 영상으로 이동)  
 [![alt text](https://img.youtube.com/vi/WDDFrGd1XBg/0.jpg)](https://www.youtube.com/watch?v=WDDFrGd1XBg)  
   
-1-2. 음성 로드 기능 설명  
+1-2. 음성 로드 기능 설명(이미지 클릭 시 영상으로 이동)  
 [![alt text](https://img.youtube.com/vi/0IZx-0-FGZI/0.jpg)](https://www.youtube.com/watch?v=0IZx-0-FGZI)  
   
-1-3. 모델 변경 기능 설명  
+1-3. 모델 변경 기능 설명(이미지 클릭 시 영상으로 이동)  
 [![alt text](https://img.youtube.com/vi/sQlIkdLi9Bs/0.jpg)](https://www.youtube.com/watch?v=sQlIkdLi9Bs)  
   
-1-4. 디노이즈 관련 기능 설명  
+1-4. 디노이즈 관련 기능 설명(이미지 클릭 시 영상으로 이동)  
 [![alt text](https://img.youtube.com/vi/N6eltE5N9MM/0.jpg)](https://www.youtube.com/watch?v=N6eltE5N9MM)  
   
 
@@ -34,13 +34,13 @@ OpenAI의 Whisper 모델과 VAD(Voice Activity Detector)를 사용해 구현한 
 
 2. **싱글보드 STT 구동 테스트 영상**
   
-2-1.개발PC_Stt 온디바이스 데모  
+2-1.개발PC_Stt 온디바이스 데모(이미지 클릭 시 영상으로 이동)  
 [![alt text](https://img.youtube.com/vi/Kit1lvTWxxg/0.jpg)](https://www.youtube.com/watch?v=Kit1lvTWxxg)  
   
-2-2. 라즈베리파이_Stt 온디바이스 데모  
+2-2. 라즈베리파이_Stt 온디바이스 데모(이미지 클릭 시 영상으로 이동)  
 [![alt text](https://img.youtube.com/vi/UtyPmrirj_0/0.jpg)](https://www.youtube.com/watch?v=UtyPmrirj_0)  
   
-2-3. 젯슨오린나노_Stt 온디바이스 데모  
+2-3. 젯슨오린나노_Stt 온디바이스 데모(이미지 클릭 시 영상으로 이동)  
 [![alt text](https://img.youtube.com/vi/MfX-K7kKF_Y/0.jpg)](https://www.youtube.com/watch?v=MfX-K7kKF_Y)  
 
   
