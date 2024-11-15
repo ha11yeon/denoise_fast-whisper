@@ -14,36 +14,6 @@ OpenAI의 Whisper 모델과 VAD(Voice Activity Detector)를 사용해 구현한 
 - **주변 소음 조절 초기화**: 주변의 마이크 소음을 조절하여 마이크를 최적화합니다.
 - **노이즈 감도 조절**: 0에서 1 사이로 디노이즈 감도를 조절할 수 있습니다.
 
-## 기능 설명 및 데모 영상
-1. **STT GUI 구현 테스트 영상**
-  
-1-1. 음성 활동 감지(VAD)를 통한 자동 녹음 중지 기능 설명(이미지 클릭 시 영상으로 이동)  
-[![alt text](https://img.youtube.com/vi/WDDFrGd1XBg/0.jpg)](https://www.youtube.com/watch?v=WDDFrGd1XBg)  
-  
-1-2. 음성 로드 기능 설명(이미지 클릭 시 영상으로 이동)  
-[![alt text](https://img.youtube.com/vi/0IZx-0-FGZI/0.jpg)](https://www.youtube.com/watch?v=0IZx-0-FGZI)  
-  
-1-3. 모델 변경 기능 설명(이미지 클릭 시 영상으로 이동)  
-[![alt text](https://img.youtube.com/vi/sQlIkdLi9Bs/0.jpg)](https://www.youtube.com/watch?v=sQlIkdLi9Bs)  
-  
-1-4. 디노이즈 관련 기능 설명(이미지 클릭 시 영상으로 이동)  
-[![alt text](https://img.youtube.com/vi/N6eltE5N9MM/0.jpg)](https://www.youtube.com/watch?v=N6eltE5N9MM)  
-  
-
-
-
-2. **싱글보드 STT 구동 테스트 영상**
-  
-2-1.개발PC_Stt 온디바이스 데모(이미지 클릭 시 영상으로 이동)  
-[![alt text](https://img.youtube.com/vi/Kit1lvTWxxg/0.jpg)](https://www.youtube.com/watch?v=Kit1lvTWxxg)  
-  
-2-2. 라즈베리파이_Stt 온디바이스 데모(이미지 클릭 시 영상으로 이동)  
-[![alt text](https://img.youtube.com/vi/UtyPmrirj_0/0.jpg)](https://www.youtube.com/watch?v=UtyPmrirj_0)  
-  
-2-3. 젯슨오린나노_Stt 온디바이스 데모(이미지 클릭 시 영상으로 이동)  
-[![alt text](https://img.youtube.com/vi/MfX-K7kKF_Y/0.jpg)](https://www.youtube.com/watch?v=MfX-K7kKF_Y)  
-
-  
 ## 설치 및 실행 방법
 이 프로젝트를 로컬에서 실행하려면 아래 단계를 따르세요.
 
@@ -68,42 +38,13 @@ python main.py
 ## 라이센스  
 아래 라이브러리들의 라이센스를 포함합니다.  
 pydub, pyaudio, faster-whisper, SpeechRecognition, noisereduce, webrtcvad  
+
+## 참고 git-hub
+- https://github.com/timsainb/noisereduce
+- https://github.com/wiseman/py-webrtcvad
+- https://github.com/timsainb/noisereduce
+- https://github.com/kafa46/acin_academy/tree/master/202_fine_tunning/whisper (fine-tuning)
+
   
-## 블로그  
-https://blog.naver.com/112fkdldjs/223513947371  
+
   
-    
-# 버전 히스토리
-## 240618_v1
-240618 실시간 STT 테스트
-
-[문제점]
-- tmp.wav를 저장해서 불러오는 방식이라 그 과정에서 계속 알 수 없는 에러가 발생(읽는 타이밍이 꼬이는듯)
-- 마지막 단어를 배출하지 못하는 특성 있음. 그리고 10초가 지나면 잊혀짐
-- wav파일을 넣었을 때랑, tmp.wav를 실시간으로 불러왔을 때랑 추론 결과가 다른 것 같음. 전자가 성능이 더 좋은 것 같음
-
-## 240619_v2
-GUI로 STT 테스트
-- faster_whisper로 cpu통해서 tiny, base 모델 테스트 가능하게 gui 구성
-- exe파일 생성
-
-## 240619_v3 
-노이즈 제거 기능 테스트 중. (녹음 중지 버튼 삭제 필요. 대화가 끝낫다는 사실 인지 기능 추가 필요)
-- main.py기능은 안만짐
-- '잡음 제거 테스트.ipynb' 하나 만들어서 잡음 제거 기능 테스트 중임
-- 통합 GUI 모듈 제작함
-![alt text](README_img/img1.png)
-
-## 240705_v4
-'녹음 중지'버튼 제거 목적
-- 녹음 중지버튼이 제거되고 VAD를 통해 목소리를 감지하여 n초동안 음성이 없을 경우 자동으로 녹음을 종료함
-- webrtcvad 라이브러리는 사용하여 구현함
-- Audio_record Class의 _vad 함수에 상세 내용 있음
-- 녹음 시작 시 LED 상태창이 빨간불로 바뀌고, 녹음이 종료되면 회식으로 꺼짐
-![alt text](README_img/img2.png)
-
-## 240715_v5
-- main과 utils 폴더 분리
-- 필요 없는 임시파일들 모두 정리
-- requirments.txt 완성(가상환경 새로 만들어서 제대로 동작하는지 테스트 완료)
-- README.md 완성
