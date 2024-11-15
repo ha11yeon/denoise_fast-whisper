@@ -6,6 +6,7 @@ import wave
 
 # 추가
 import numpy as np
+
 from faster_whisper import WhisperModel
 import speech_recognition as sr
 import noisereduce as nr
@@ -173,7 +174,7 @@ class Cumtom_faster_whisper:
         self.model = WhisperModel(model_name, device="cpu", compute_type="int8")
         return model_name
 
-    def run(self, audio, language=None):
+    def run(self, audio, language='ko'):
         '''
         저장된 tmp.wav를 불러와서 STT 추론 수행
 
