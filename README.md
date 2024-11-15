@@ -42,7 +42,7 @@ pydub, pyaudio, faster-whisper, SpeechRecognition, noisereduce, webrtcvad
 ## 참고 git-hub
 - https://github.com/timsainb/noisereduce
 - https://github.com/wiseman/py-webrtcvad
-- https://github.com/timsainb/noisereduce
+- https://pypi.org/project/SpeechRecognition/
 - https://github.com/kafa46/acin_academy/tree/master/202_fine_tunning/whisper (fine-tuning)
 
   
